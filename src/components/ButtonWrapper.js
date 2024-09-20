@@ -1,12 +1,14 @@
 import React from "react";
-import Button from "./Button.js"
 import "../stylesheets/ButtonWrapper.css"
 
 export default function ButtonWrapper() {
 
     return  (
         <div className='button-wrapper'>
-            <Button />
+            <button>GitHub</button>
+            <button>Linkedin</button>
+            <button>Blog</button>
+            <button>Projetos</button>
         </div>
     )   
 }

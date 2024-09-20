@@ -1,7 +1,10 @@
 import "../stylesheets/App.css";
 import Logo from "./Logo.js";
 import ButtonWrapper from "./ButtonWrapper.js";
-import ProfilePicture from "./ProfilePicture.js"
+import ButtonAndImageWrapper from "./ButtonAndImageWrapper.js";
+import ProfilePicture from "./ProfilePicture.js";
+import About from "./About.js";
+import Footer from "./Footer.js";
 
 
 function App() {
@@ -10,8 +13,9 @@ function App() {
       <Logo />
       <ButtonWrapper />
       <ProfilePicture />
-      <ButtonWrapper />
-      <footer></footer>
+      <ButtonAndImageWrapper />
+      <About />
+      <Footer />
     </div>
   );
 }
