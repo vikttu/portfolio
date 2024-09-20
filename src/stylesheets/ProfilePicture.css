@@ -1,0 +1,7 @@
+.profile-picture {
+    grid-column: span 2;
+}
+
+.profile-picture-image {
+    width: 100%;
+}
