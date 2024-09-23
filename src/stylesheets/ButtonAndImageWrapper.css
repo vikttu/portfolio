@@ -11,4 +11,5 @@
 .button-image-wrapper--image {
  grid-column: span 2;
  height: 25vw;
+ width: 100%;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/ButtonAndImageWrapper.css"
-import texture from "../media/profile-image-portfolio.jpg"
+import texture from "../media/pattern.jpg"
 
 export default function ButtonAndImageWrapper() {
 
