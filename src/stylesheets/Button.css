@@ -1,0 +1,28 @@
+.button--text_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.button--text_style__hover:hover {
+    text-decoration: underline;
+}
+.button--text_style__no_underline:hover {
+    text-decoration: none;
+}
+
+.button--linkedin {
+    background-color: blue;
+}
+
+.button--blog {
+    background-color: red;
+}
+
+.button--contact {
+    background-color: yellow;
+}

@@ -5,11 +5,20 @@
 }
 
 .button-image-wrapper--button {
-    height: 25vw;
+    height: 50vw;
+    @media (min-width: 768px) {
+        height: 25vw;
+    }
 }
 
 .button-image-wrapper--image {
  grid-column: span 2;
- height: 25vw;
  width: 100%;
+ @media (min-width: 768px) {
+     height: 25vw;
+ }
+}
+
+.button-image-wrapper--button__content {
+    font-size: medium;
 }
